@@ -51,18 +51,25 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 items-center mb-12">
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
                 <a 
                 href="#contact"
-                className="px-8 py-3 bg-white text-black font-bold rounded-full hover:bg-gray-200 transition-colors"
+                className="px-8 py-3 bg-white text-black font-bold rounded-full hover:bg-gray-200 transition-colors flex-shrink-0"
                 >
                 Get in Touch
                 </a>
                 <a 
                 href="#projects"
-                className="px-8 py-3 border border-white/30 text-white font-bold rounded-full hover:bg-white/10 transition-colors"
+                className="px-8 py-3 border border-white/30 text-white font-bold rounded-full hover:bg-white/10 transition-colors flex-shrink-0"
                 >
                 View Work
+                </a>
+                <a 
+                href="/palak_latest.pdf"
+                download="palak_latest.pdf"
+                className="px-8 py-3 border border-purple-500 text-purple-400 font-bold rounded-full hover:bg-purple-500/10 transition-colors flex-shrink-0"
+                >
+                Download Resume
                 </a>
             </div>
             <div className="flex gap-4 mt-4 sm:mt-0 sm:ml-4">
