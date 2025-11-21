@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { personalInfo, experience } from '../data';
 import { ChevronDown, Github, Linkedin } from 'lucide-react';
-import resume from '../assets/palak_latest.pdf';
+import resume from '../assets/palak_satpute_iitb.pdf';
 
 const Hero = () => {
   return (
@@ -67,7 +67,7 @@ const Hero = () => {
                 </a>
                 <a 
                 href={resume}
-                download="palak_latest.pdf"
+                download="palak_satpute_iitb.pdf"
                 className="px-8 py-3 border border-purple-500 text-purple-400 font-bold rounded-full hover:bg-purple-500/10 transition-colors flex-shrink-0"
                 >
                 Download Resume
